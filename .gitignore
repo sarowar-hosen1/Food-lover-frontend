@@ -10,6 +10,8 @@
 
 # production
 /build
+/src/components/Config
+
 
 # misc
 .DS_Store

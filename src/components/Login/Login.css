@@ -1,0 +1,60 @@
+.login{
+    background-color: rgb(218 173 68);
+    height:100vh;
+    width:100%;
+}
+.login-main{
+    height:100vh;
+}
+.login-form{
+    height:500px;
+    padding:30px;
+    background-color: white;
+}
+
+.login-form h5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Recursive';
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.login-form form .form-control {
+    background-color: white !important;
+    color: black !important;
+    padding: 20px 10px !important;
+    margin-top: 5px;
+}
+.login-form button {
+    background-color: transparent;
+    border: none;
+    color: #a27408;
+    font-weight: 600;
+    margin-top: 15px;
+    font-family: 'Recursive';
+}
+.login-form span{
+    font-size: 14px;
+    color: red;
+    margin-left: 10px;
+}
+
+.social-login button {
+    font-size: 25px;    
+}
+
+.login-banner{
+    height:500px;
+    background-image: url(../../images/login-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+
+.banner-content{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}

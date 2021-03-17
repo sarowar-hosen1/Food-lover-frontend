@@ -1,0 +1,50 @@
+.navbar{
+    position:absolute !important;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+a.navbar-brand {
+    width: 180px;
+    height: 80px;
+}
+.navbar .nav-link {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+    padding: 10px !important;
+    cursor: pointer;
+}
+
+button.nav-link.btn {
+    background-color: #fab51e;
+    padding: 10px 20px !important;
+}
+
+.navbar-toggler i svg{
+    color: white;
+}
+
+@media (max-width: 992px){
+    .navbar-nav{
+        background-color: rgba(0, 0, 0, 0.801);
+        padding: 10px;
+    }
+    .nav-link{
+        border-bottom: 1px solid rgb(56, 55, 55);
+    }
+    a.navbar-brand {
+        width: 120px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 668px){
+    a.navbar-brand {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+}

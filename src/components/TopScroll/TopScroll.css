@@ -1,0 +1,10 @@
+.top-arrow{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+.top-arrow svg{
+    color: #e9b23f;
+    font-size: 30px;
+    cursor: pointer;
+}

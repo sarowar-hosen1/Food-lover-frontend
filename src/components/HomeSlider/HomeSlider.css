@@ -1,0 +1,29 @@
+.carousel-item{
+    height:100vh;
+    min-height: 300px;
+}
+.carousel-item img{
+    height:100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    margin-bottom: 220px;
+}
+.carousel-caption h1 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 60px;
+    text-shadow: 5px 4px 3px #1b1a1a;
+}
+.carousel-caption p {
+    font-family: roboto;
+    font-size: 20px;
+}
+
+@media screen and (max-width:768px){
+    .carousel-caption{
+        margin-bottom: 180px;
+    }
+    .carousel-caption h1{
+        font-size: 40px;
+    }
+}

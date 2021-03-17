@@ -1,0 +1,25 @@
+.testimonials{
+    background-image: url(https://i.ibb.co/881Bty6/parallax.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 50px 0;
+}
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
+}
+.testimonial img{
+    width:100px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+.testimonial h5{
+    border-bottom: 1px dotted;
+    padding-bottom: 5px;
+}
